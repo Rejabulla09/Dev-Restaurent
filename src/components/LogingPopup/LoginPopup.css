@@ -1,0 +1,126 @@
+.login-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .login-popup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-popup-title button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .login-popup-inputs input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-popup-condition {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .login-popup p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .login-container-button{
+    border: none;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+
+  }
+  
+  .login-popup p span {
+    color: rgb(251, 76, 45);
+    cursor: pointer;
+  }
+  /* Password input container */
+.password-input-container {
+  position: relative;
+}
+
+.password-input-container input {
+  padding-right: 40px;
+  width: 100%;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.password-toggle:hover {
+  color: #333;
+}
+
+.password-toggle svg {
+  font-size: 16px;
+}
+.remember-me{
+  margin-top: 20px;
+  padding-top: 8px; 
+  position: relative;
+}
+.forgot-password{
+ color: tomato;
+}
+.signup-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-link span {
+  color:tomato;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.signup-link span:hover {
+  color:tomato;
+}
